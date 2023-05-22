@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+    padding: opx;
+    background: rgb(50, 48, 48);
+    color: white;
+}
+#head {
+    background: orange;
+    padding: 5px;
+}
+#logo {
+    width: 60px;
+    margin: 5px;
+    border-radius: 100%;
+}
+.sign {
+    float: right;
+    margin: 25px 15px 0px 0px;
+    width: 100px;
+}
+#style {
+    background: orange;
+    padding: 10px;
+    margin: 100px 30px;
+}
+form {
+    background: orange;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: rgb(65, 62, 62) 2px 2px 2px 1.2px;
+}
+img[src='../image/icon/dp.png']{
+    border: 1px solid black;
+    padding: 15px;
+    background: white;
+    border-radius: 100%;
+}
+#submit {
+    width: 100px;
+    padding: 3px;
+    border-radius: 20px;
+}
+input {
+    width: 250px;
+    border-radius: 20px;
+    padding: 5px 5px 5px 10px;
+}
+main {
+    margin-bottom: 60px;
+}
+footer {
+    background: orange;
+    text-align: center;
+    color: black;
+    padding: 5px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+}
+footer p, footer a {
+    display: inline;
+    line-height: 50px;
+    text-decoration: none;
+}
+footer p, footer a:hover,:active{
+color: white;
+}
+@media  (min-width: 768px) {
+    #style {
+        width: 60vw;
+        margin: 120px auto;
+    }
+}
+@media (max-height: 360px) {
+    #style {
+        width: fit-content;
+        height: fit-content;
+    }
+}

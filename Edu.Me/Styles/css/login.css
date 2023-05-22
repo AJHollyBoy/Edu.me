@@ -1,0 +1,63 @@
+body {
+    margin: 0px;
+    padding: opx;
+    background: rgb(50, 48, 48);
+    color: white;
+}
+header {
+    background: orange;
+    padding: 5px;
+}
+#logo {
+    width: 60px;
+    margin: 5px;
+    border-radius: 100%;
+}
+.sign {
+    float: right;
+    margin: 25px 15px 0px 0px;
+    width: 100px;
+}
+#style {
+    background: orange;
+    margin: 50px 40px;
+    padding: 10px;
+}
+.form {
+    background: orange;
+    padding: 20px;
+    margin: 8px;
+    text-align: center;
+    box-shadow: rgb(65, 62, 62) 2px 2px 2px 1.2px;
+}
+#submit {
+    width: 100px;
+    padding: 3px;
+    border-radius: 20px;
+}
+input {
+    width: 250px;
+    border-radius: 20px;
+    padding: 5px 5px 5px 10px;
+}
+main {
+    margin-bottom: 60px;
+}
+footer {
+    background: orange;
+    text-align: center;
+    color: black;
+    padding: 5px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    line-height: 20px;
+    height: 50px;
+}
+@media  (min-width: 768px) {
+    #style {
+        width: 60vw;
+        margin: auto;
+        margin: 75px auto;
+    }
+}
